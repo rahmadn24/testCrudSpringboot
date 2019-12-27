@@ -1,0 +1,41 @@
+/api/laptop [create]
+
+Body
+{
+    "laptopName": "Lenovo Yoga",
+    "brand": "Lenovo",
+    "model": "RQDADADDADA",
+    "color": "Yellow",
+    "processor": "Intel I3",
+    "clockSpeed": 2,
+    "vga": "Intel HD Graphic",
+    "ramCapacity": 4,
+    "hddCapacity": 256,
+    "price": 6000000
+}
+
+/api/laptop/list [get]
+
+/api/laptop [update]
+
+Body
+{
+		"id": 1,
+    "laptopName": "Lenovo Yoga",
+    "brand": "Lenovo",
+    "model": "RQDADADDADA",
+    "color": "Yellow",
+    "processor": "Intel I3",
+    "clockSpeed": 2,
+    "vga": "Intel HD Graphic",
+    "ramCapacity": 4,
+    "hddCapacity": 256,
+    "price": 6000000
+}
+
+/api/laptop
+
+Body
+{
+	"id": 1
+}
